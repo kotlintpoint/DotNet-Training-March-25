@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelloConsoleApp
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -27,7 +27,40 @@ namespace HelloConsoleApp
 
             //StringIsNullOrEmptyTesting();
 
-            SortingExample.SortNumbersExample();
+            //SortingExample.SortNumbersExample();
+
+            //LoopDemo.StringVsStringBuilder();
+
+            //object student = new Student("Ankit");
+            //Console.WriteLine(student);
+
+            //Student std = new Engineer("Test");
+
+
+            //Teacher teacher = new Teacher();
+            //teacher.Work();
+
+            //teacher = new GoodTeacher();
+            //teacher.Work();
+
+            //teacher = new BadTeacher();
+            //teacher.Work();
+
+            // can not instantiate interface
+            //IFace1 face1 = new IFace1();
+
+            /*
+            IFace1 face1 = new InterfaceDemo();
+            face1.HelloInterface();
+            //face1.WelcomeToInterface();
+
+            InterfaceDemo demo = new InterfaceDemo();
+            demo.HelloInterface();
+            demo.WelcomeToInterface(100);
+            */
+            //ListDemo.ListDemoExample();
+            Console.WriteLine("Hello");
+
         }
 
         static void BooleanComparison() {
