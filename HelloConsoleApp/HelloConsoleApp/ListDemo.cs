@@ -35,7 +35,7 @@ namespace HelloConsoleApp
             
         }
 
-        public static void PrintList(List<int> list) {
+        public static void PrintList<T>(List<T> list) {
             /*foreach (var item in list)
             {
                 Console.Write($"{item}, ");
