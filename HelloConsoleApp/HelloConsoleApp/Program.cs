@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -61,6 +62,29 @@ namespace HelloConsoleApp
             //ListDemo.ListDemoExample();
             Console.WriteLine("Hello");
 
+            Student std = new Student
+            {
+                Name = "Hello",
+                Description = "Description"
+            };
+
+            // Serialization 
+            var studentJson = JsonConvert.SerializeObject(std,Formatting.Indented);
+            Console.WriteLine(studentJson);
+
+
+            Student student = JsonConvert.DeserializeObject<Student>(studentJson);
+            Console.WriteLine(student);
+
+            List<Student> studentList = new List<Student> { 
+                student, student, student
+            };
+
+            var studentListJson = JsonConvert.SerializeObject(studentList, Formatting.Indented);
+            Console.WriteLine(studentListJson);
+
+            List<Student> studentList1 = JsonConvert.DeserializeObject<List<Student>>(studentJson);
+            Console.WriteLine(studentList1);
         }
 
         static void BooleanComparison() {

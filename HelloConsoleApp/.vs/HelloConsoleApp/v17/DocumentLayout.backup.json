@@ -1,10 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github\\DotNet-Training-March-25\\HelloConsoleApp\\",
+  "WorkspaceRootPath": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56BEABD1-BB63-4A05-85E7-8FE02DA87A2C}|HelloConsoleApp\\HelloConsoleApp.csproj|d:\\github\\dotnet-training-march-25\\helloconsoleapp\\helloconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56BEABD1-BB63-4A05-85E7-8FE02DA87A2C}|HelloConsoleApp\\HelloConsoleApp.csproj|D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\helloconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56BEABD1-BB63-4A05-85E7-8FE02DA87A2C}|HelloConsoleApp\\HelloConsoleApp.csproj|solutionrelative:helloconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BEABD1-BB63-4A05-85E7-8FE02DA87A2C}|HelloConsoleApp\\HelloConsoleApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\helloconsoleapp\\helloconsoleapp\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BEABD1-BB63-4A05-85E7-8FE02DA87A2C}|HelloConsoleApp\\HelloConsoleApp.csproj|solutionrelative:helloconsoleapp\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BEABD1-BB63-4A05-85E7-8FE02DA87A2C}|HelloConsoleApp\\HelloConsoleApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\helloconsoleapp\\helloconsoleapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BEABD1-BB63-4A05-85E7-8FE02DA87A2C}|HelloConsoleApp\\HelloConsoleApp.csproj|solutionrelative:helloconsoleapp\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BEABD1-BB63-4A05-85E7-8FE02DA87A2C}|HelloConsoleApp\\HelloConsoleApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\helloconsoleapp\\helloconsoleapp\\listdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BEABD1-BB63-4A05-85E7-8FE02DA87A2C}|HelloConsoleApp\\HelloConsoleApp.csproj|solutionrelative:helloconsoleapp\\listdemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56BEABD1-BB63-4A05-85E7-8FE02DA87A2C}|HelloConsoleApp\\HelloConsoleApp.csproj|D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\helloconsoleapp\\dictionarydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56BEABD1-BB63-4A05-85E7-8FE02DA87A2C}|HelloConsoleApp\\HelloConsoleApp.csproj|solutionrelative:helloconsoleapp\\dictionarydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\HelloConsoleApp\\Student.cs",
+              "RelativeDocumentMoniker": "HelloConsoleApp\\Student.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\HelloConsoleApp\\Student.cs",
+              "RelativeToolTip": "HelloConsoleApp\\Student.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T03:58:00.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\HelloConsoleApp\\Teacher.cs",
+              "RelativeDocumentMoniker": "HelloConsoleApp\\Teacher.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\HelloConsoleApp\\Teacher.cs",
+              "RelativeToolTip": "HelloConsoleApp\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T03:57:58.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListDemo.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\HelloConsoleApp\\ListDemo.cs",
+              "RelativeDocumentMoniker": "HelloConsoleApp\\ListDemo.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\HelloConsoleApp\\ListDemo.cs",
+              "RelativeToolTip": "HelloConsoleApp\\ListDemo.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA2wCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T04:29:56.083Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\HelloConsoleApp\\HelloConsoleApp\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\HelloConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "HelloConsoleApp\\Program.cs",
-              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\HelloConsoleApp\\HelloConsoleApp\\Program.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\HelloConsoleApp\\Program.cs",
               "RelativeToolTip": "HelloConsoleApp\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowBQAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAA2wD4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T04:58:20.952Z",
+              "WhenOpened": "2026-03-13T03:36:18.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DictionaryDemo.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\HelloConsoleApp\\DictionaryDemo.cs",
+              "RelativeDocumentMoniker": "HelloConsoleApp\\DictionaryDemo.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\HelloConsoleApp\\HelloConsoleApp\\DictionaryDemo.cs",
+              "RelativeToolTip": "HelloConsoleApp\\DictionaryDemo.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T03:36:10.091Z",
               "EditorCaption": ""
             }
           ]
