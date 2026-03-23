@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BulkyWebApp.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BulkyWebApp.Data
 {
@@ -8,5 +9,7 @@ namespace BulkyWebApp.Data
             : base(options)
         {
         }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }
