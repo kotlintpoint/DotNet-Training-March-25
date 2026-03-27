@@ -1,7 +1,9 @@
-﻿using BulkyWebApp.Data;
+﻿
+using Bulky.DataAccess.Data;
+using Bulky.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BulkyWebApp.Models
+namespace Bulky.DataSeed
 {
     public static class SeedData
     {
