@@ -1,5 +1,7 @@
 using Bulky.DataAccess.Data;
+using Bulky.DataAccess.Repository;
 using Bulky.DataSeed;
+using DI_Service_Lifetime;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +15,12 @@ var connectionString =
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+builder.Services.AddScoped<IScopedGuidService, ScopedGuidService>();
+builder.Services.AddSingleton<ISingletonGuidService, SingletonGuidService>();
+builder.Services.AddSingleton<ITransientGuidService, TransientGuidService>();
 
+builder.Services.AddScoped<ICategoryRepository, CategoryRespository>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())

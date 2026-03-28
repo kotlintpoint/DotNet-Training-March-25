@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Bulky.DataAccess\Bulky.DataAccess.csproj" />
     <ProjectReference Include="..\Bulky.Models\Bulky.Models.csproj" />
+    <ProjectReference Include="..\DI_Service_Lifetime\DI_Service_Lifetime.csproj" />
   </ItemGroup>
 
 </Project>
