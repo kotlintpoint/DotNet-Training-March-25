@@ -3,8 +3,9 @@ using Bulky.Models;
 using DI_Service_Lifetime;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BulkyWebApp.Controllers
+namespace BulkyWebApp.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
