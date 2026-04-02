@@ -3,56 +3,84 @@
   "WorkspaceRootPath": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Migrations\\20260402045856_ImageUrlAddedToProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bulky.DataAccess\\Migrations\\20260402045856_ImageUrlAddedToProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B881DF42-F23D-4BFB-A785-81E6ECBD61C6}|Bulky.Models\\Bulky.Models.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulky.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B881DF42-F23D-4BFB-A785-81E6ECBD61C6}|Bulky.Models\\Bulky.Models.csproj|solutionrelative:bulky.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\dataseed\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\dataseed\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\areas\\customer\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\areas\\customer\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\areas\\customer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\areas\\customer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulkywebapp\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7DD5BF3-9E22-4A5F-AC7F-61A8B43D73B1}|BulkyWebApp\\BulkyWebApp.csproj|solutionrelative:bulkywebapp\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulky.dataaccess\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulky.dataaccess\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulky.dataaccess\\repository\\productrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\productrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulky.dataaccess\\repository\\categoryrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\categoryrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulky.dataaccess\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulky.dataaccess\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulky.dataaccess\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulky.dataaccess\\migrations\\20260402041710_producttablecreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\migrations\\20260402041710_producttablecreation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|d:\\github\\dotnet-training-march-25\\dotnet-training-march-25\\bulkyweb\\bulky.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{969979B3-A415-406B-B99B-085D00C92D84}|Bulky.DataAccess\\Bulky.DataAccess.csproj|solutionrelative:bulky.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,175 +90,266 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "bootstrap.css",
-              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeDocumentMoniker": "BulkyWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "RelativeToolTip": "BulkyWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAAAM0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-03-31T04:35:41.19Z",
+              "DocumentIndex": 0,
+              "Title": "20260402045856_ImageUrlAddedToProduct.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Migrations\\20260402045856_ImageUrlAddedToProduct.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Migrations\\20260402045856_ImageUrlAddedToProduct.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Migrations\\20260402045856_ImageUrlAddedToProduct.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Migrations\\20260402045856_ImageUrlAddedToProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:58:57.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "BulkyWebApp\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "BulkyWebApp\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-03-31T04:35:26.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BulkyWebApp\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "BulkyWebApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAUwB4AAABSAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACEAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T04:13:39.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Customer\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "BulkyWebApp\\Areas\\Customer\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Customer\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "BulkyWebApp\\Areas\\Customer\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T04:12:45.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Customer\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "BulkyWebApp\\Areas\\Customer\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Customer\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "BulkyWebApp\\Areas\\Customer\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T04:12:44.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "BulkyWebApp\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "BulkyWebApp\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T04:09:01.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "BulkyWebApp\\appsettings.json",
-              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\appsettings.json",
-              "RelativeToolTip": "BulkyWebApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-31T04:01:16.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Program.cs",
-              "RelativeDocumentMoniker": "BulkyWebApp\\Program.cs",
-              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Program.cs",
-              "RelativeToolTip": "BulkyWebApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T04:01:19.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "BulkyWebApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "BulkyWebApp\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T04:09:31.483Z",
+              "WhenOpened": "2026-04-02T04:43:58.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "BulkyWebApp\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "BulkyWebApp\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "BulkyWebApp\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "BulkyWebApp\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T04:11:04.667Z",
+              "WhenOpened": "2026-04-02T04:33:54.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "BulkyWebApp\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "BulkyWebApp\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T04:08:46.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "BulkyWebApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "BulkyWebApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAywAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T04:06:35.387Z",
+              "WhenOpened": "2026-04-02T04:33:43.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BulkyWebApp\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BulkyWebApp\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAA2wCIAAAAlAAAAAAAAAA==",
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\UnitOfWork.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Repository\\UnitOfWork.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T04:06:23.924Z",
+              "WhenOpened": "2026-04-02T04:28:57.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.Models\\Product.cs",
+              "RelativeDocumentMoniker": "Bulky.Models\\Product.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.Models\\Product.cs",
+              "RelativeToolTip": "Bulky.Models\\Product.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwCsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:08:42.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BulkyWebApp\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "BulkyWebApp\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAADUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T04:41:35.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\DataSeed\\SeedData.cs",
+              "RelativeDocumentMoniker": "BulkyWebApp\\DataSeed\\SeedData.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\DataSeed\\SeedData.cs",
+              "RelativeToolTip": "BulkyWebApp\\DataSeed\\SeedData.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwDwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:11:39.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "BulkyWebApp\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "BulkyWebApp\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T04:36:40.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BulkyWebApp\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "BulkyWebApp\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-02T04:40:57.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "BulkyWebApp\\Program.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Program.cs",
+              "RelativeToolTip": "BulkyWebApp\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAewBUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:42:50.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\IUnitOfWork.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Repository\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:28:20.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryRespository.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\CategoryRespository.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\CategoryRespository.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\CategoryRespository.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Repository\\CategoryRespository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:27:19.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\ICategoryRepository.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\ICategoryRepository.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Repository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:23:58.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductRespository.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\ProductRespository.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\ProductRespository.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\ProductRespository.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Repository\\ProductRespository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA2wAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:22:35.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "BulkyWebApp\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\BulkyWebApp\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "BulkyWebApp\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:20:34.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IRepository.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:24:14.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Repository\\IProductRepository.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Repository\\IProductRepository.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Repository\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:21:54.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260402041710_ProductTableCreation.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Migrations\\20260402041710_ProductTableCreation.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Migrations\\20260402041710_ProductTableCreation.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Migrations\\20260402041710_ProductTableCreation.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Migrations\\20260402041710_ProductTableCreation.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA2wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:17:11.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Bulky.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Github\\DotNet-Training-March-25\\DotNet-Training-March-25\\BulkyWeb\\Bulky.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Bulky.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T04:11:10.477Z",
               "EditorCaption": ""
             }
           ]

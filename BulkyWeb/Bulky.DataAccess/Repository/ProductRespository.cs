@@ -1,4 +1,5 @@
 ﻿using Bulky.DataAccess.Data;
+using Bulky.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,22 +8,23 @@ using System.Threading.Tasks;
 
 namespace Bulky.DataAccess.Repository
 {
-    public class UnitOfWork : IUnitOfWork
+    public class ProductRespository : Repository<Product>, IProductRepository
     {
         private readonly ApplicationDbContext _db;
-        public ICategoryRepository Category { get; private set; }
-        public IProductRepository Products { get; private set; }
 
-        public UnitOfWork(ApplicationDbContext db) {
+        public ProductRespository(ApplicationDbContext db) : base(db)
+        {
             _db = db;
-            Category = new CategoryRespository(db);
-            Products = new ProductRespository(db);
         }
-
 
         public void Save()
         {
             _db.SaveChanges();
+        }
+
+        public void Update(Product Obj)
+        {
+            _db.Products.Update(Obj);
         }
     }
 }
