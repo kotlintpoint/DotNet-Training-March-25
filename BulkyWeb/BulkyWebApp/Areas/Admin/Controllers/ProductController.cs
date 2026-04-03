@@ -1,7 +1,10 @@
 ﻿using Bulky.DataAccess.Data;
 using Bulky.DataAccess.Repository;
 using Bulky.Models;
+using Bulky.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Collections.Generic;
 
 namespace BulkyWebApp.Areas.Admin.Controllers
 {
@@ -22,23 +25,41 @@ namespace BulkyWebApp.Areas.Admin.Controllers
         }
 
         public IActionResult Create()
-        {        
-            return View();
+        {
+            IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category.GetAll().Select(c => new SelectListItem
+            {
+                Text = c.Name,
+                Value = c.Id.ToString()
+            });
+            //ViewBag.CategoryList = CategoryList;
+            ProductVM ProductVM = new ProductVM
+            {
+                CategoryList = CategoryList,
+                Product = new Product()
+            };
+            return View(ProductVM);
         }
         [HttpPost]
-        public IActionResult Create(Product Product)
-        {
-            if (Product.Title == Product.Description.ToString()) {
+        public IActionResult Create(ProductVM ProductVM)
+        {            
+            if (ProductVM.Product.Title == ProductVM.Product.Description.ToString()) {
                 ModelState.AddModelError("title", "The Title cannot exactly match the Description."); 
             }
+            ProductVM.Product.ImageUrl = "";
             if (ModelState.IsValid)
             {
-                _unitOfWork.Products.Add(Product);
+                _unitOfWork.Products.Add(ProductVM.Product);
                 _unitOfWork.Save();
                 TempData["success"] = "Product created successfully.";
                 return RedirectToAction("Index");
             }
-            return View();
+                        
+            ProductVM.CategoryList = _unitOfWork.Category.GetAll().Select(c => new SelectListItem
+            {
+                Text = c.Name,
+                Value = c.Id.ToString()
+            });
+            return View(ProductVM);
         }
 
         public IActionResult Edit(int? Id)
@@ -54,6 +75,13 @@ namespace BulkyWebApp.Areas.Admin.Controllers
             if (ProductObj == null) {
                 return NotFound();
             }
+
+            IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category.GetAll().Select(c => new SelectListItem
+            {
+                Text = c.Name,
+                Value = c.Id.ToString()
+            });
+            ViewBag.CategoryList = CategoryList;
 
             return View(ProductObj);
         }
