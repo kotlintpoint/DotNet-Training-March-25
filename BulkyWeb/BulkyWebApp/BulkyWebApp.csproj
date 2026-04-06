@@ -22,4 +22,8 @@
     <ProjectReference Include="..\DI_Service_Lifetime\DI_Service_Lifetime.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\product\" />
+  </ItemGroup>
+
 </Project>

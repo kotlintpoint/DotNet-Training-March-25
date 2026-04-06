@@ -28,60 +28,96 @@ namespace BulkyWebApp.Areas.Admin.Controllers
             return View(CategoryList);
         }
 
-        public IActionResult Create()
-        {        
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Create(Category Category)
+        public IActionResult Upsert(int? Id) 
         {
-            if (Category.Name == Category.DisplayOrder.ToString()) {
-                ModelState.AddModelError("name", "The DisplayOrder cannot exactly match the Name."); 
-            }
-            if (ModelState.IsValid)
+            Category CategoryObj;
+            if (Id == null || Id == 0)
             {
-                //_categoryRepo.Add(Category);
-                //_categoryRepo.Save();
-                _unitOfWork.Category.Add(Category);
-                _unitOfWork.Save();
-                TempData["success"] = "Category created successfully.";
-                return RedirectToAction("Index");
+                CategoryObj = new Category();
             }
-            return View();
-        }
-
-        public IActionResult Edit(int? Id)
-        {
-            if (Id == null || Id == 0) 
-            {
-                return NotFound();
+            else {
+                CategoryObj = _unitOfWork.Category.Get(c => c.Id == Id);
             }
-
-            //Category? CategoryObj = _categoryRepo.Get(c => c.Id == Id);
-            Category? CategoryObj = _unitOfWork.Category.Get(c => c.Id == Id);
-
-            if (CategoryObj == null) {
-                return NotFound();
-            }
-
             return View(CategoryObj);
         }
 
         [HttpPost]
-        public IActionResult Edit(Category Category)
-        {           
+        public IActionResult Upsert(Category Category)
+        {
             if (ModelState.IsValid)
             {
-                //_categoryRepo.Update(Category);
-                //_categoryRepo.Save();
-
-                _unitOfWork.Category.Update(Category);
+                string msg = "";
+                if (Category.Id == 0)
+                {
+                    // Create
+                    _unitOfWork.Category.Add(Category);                    
+                    msg = "Category created successfully.";
+                }
+                else {
+                    // Update
+                    _unitOfWork.Category.Update(Category);                    
+                    msg = "Category updated successfully.";
+                }
                 _unitOfWork.Save();
-                TempData["success"] = "Category updated successfully.";
+                TempData["success"] = msg;
                 return RedirectToAction("Index");
             }
-            return View();
+            return View(Category);
         }
+        //public IActionResult Create()
+        //{        
+        //    return View();
+        //}
+        //[HttpPost]
+        //public IActionResult Create(Category Category)
+        //{
+        //    if (Category.Name == Category.DisplayOrder.ToString()) {
+        //        ModelState.AddModelError("name", "The DisplayOrder cannot exactly match the Name."); 
+        //    }
+        //    if (ModelState.IsValid)
+        //    {
+        //        //_categoryRepo.Add(Category);
+        //        //_categoryRepo.Save();
+        //        _unitOfWork.Category.Add(Category);
+        //        _unitOfWork.Save();
+        //        TempData["success"] = "Category created successfully.";
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View();
+        //}
+
+        //public IActionResult Edit(int? Id)
+        //{
+        //    if (Id == null || Id == 0) 
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    //Category? CategoryObj = _categoryRepo.Get(c => c.Id == Id);
+        //    Category? CategoryObj = _unitOfWork.Category.Get(c => c.Id == Id);
+
+        //    if (CategoryObj == null) {
+        //        return NotFound();
+        //    }
+
+        //    return View(CategoryObj);
+        //}
+
+        //[HttpPost]
+        //public IActionResult Edit(Category Category)
+        //{           
+        //    if (ModelState.IsValid)
+        //    {
+        //        //_categoryRepo.Update(Category);
+        //        //_categoryRepo.Save();
+
+        //        _unitOfWork.Category.Update(Category);
+        //        _unitOfWork.Save();
+        //        TempData["success"] = "Category updated successfully.";
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View();
+        //}
 
         public IActionResult Delete(int? Id)
         {
