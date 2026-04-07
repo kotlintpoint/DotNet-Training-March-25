@@ -22,7 +22,7 @@ namespace BulkyWebApp.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            List<Product> ProductList = _unitOfWork.Products.GetAll().ToList();
+            List<Product> ProductList = _unitOfWork.Products.GetAll(includeProperties: "Category").ToList();
             return View(ProductList);
         }
 
@@ -65,7 +65,6 @@ namespace BulkyWebApp.Areas.Admin.Controllers
                 ModelState.AddModelError("title", "The Title cannot exactly match the Description.");
             }           
 
-            ProductVM.Product.ImageUrl = "";
             if (ModelState.IsValid)
             {
                 if (file != null)
@@ -74,14 +73,26 @@ namespace BulkyWebApp.Areas.Admin.Controllers
                     string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
                     string productPath = Path.Combine(wwwRootPath, @"images\product");
 
+                    if (!string.IsNullOrEmpty(ProductVM.Product.ImageUrl))
+                    {
+                        string oldImagePath = Path.Combine(wwwRootPath, ProductVM.Product.ImageUrl.TrimStart('\\'));
+                        if (System.IO.File.Exists(oldImagePath))
+                        {
+                            System.IO.File.Delete(oldImagePath);
+                        }
+                    }
+
                     using (var fileStream = new FileStream(Path.Combine(productPath, fileName), FileMode.Create))
                     {
                         file.CopyTo(fileStream);
                     }
                     ProductVM.Product.ImageUrl = @"\images\product\" + fileName;
                 }
+                else {
+                    ProductVM.Product.ImageUrl = "";
+                }
 
-                string msg;
+                    string msg;
                 if (ProductVM.Product.Id == 0)
                 {
                     _unitOfWork.Products.Add(ProductVM.Product);
