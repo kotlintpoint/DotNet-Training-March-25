@@ -22,8 +22,9 @@ namespace BulkyWebApp.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            List<Product> ProductList = _unitOfWork.Products.GetAll(includeProperties: "Category").ToList();
-            return View(ProductList);
+            //List<Product> ProductList = _unitOfWork.Products.GetAll(includeProperties: "Category").ToList();
+            //return View(ProductList);
+            return View();
         }
 
         public IActionResult Upsert(int? Id)
@@ -63,7 +64,7 @@ namespace BulkyWebApp.Areas.Admin.Controllers
             if (ProductVM.Product.Title == ProductVM.Product.Description.ToString())
             {
                 ModelState.AddModelError("title", "The Title cannot exactly match the Description.");
-            }           
+            }
 
             if (ModelState.IsValid)
             {
@@ -92,14 +93,14 @@ namespace BulkyWebApp.Areas.Admin.Controllers
                     ProductVM.Product.ImageUrl = "";
                 }
 
-                    string msg;
+                string msg;
                 if (ProductVM.Product.Id == 0)
                 {
                     _unitOfWork.Products.Add(ProductVM.Product);
                     msg = "Product created successfully.";
                 }
                 else {
-                    _unitOfWork.Products.Update(ProductVM.Product);                    
+                    _unitOfWork.Products.Update(ProductVM.Product);
                     msg = "Product updated successfully.";
                 }
                 _unitOfWork.Save();
@@ -217,37 +218,65 @@ namespace BulkyWebApp.Areas.Admin.Controllers
         //    return View();
         //}
 
-        public IActionResult Delete(int? Id)
+        //public IActionResult Delete(int? Id)
+        //{
+        //    if (Id == null || Id == 0)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    Product? ProductObj = _unitOfWork.Products.Get(c => c.Id == Id);
+
+        //    if (ProductObj == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    return View(ProductObj);
+        //}
+
+        //[HttpPost, ActionName("Delete")]
+        //public IActionResult DeletePost(int? Id)
+        //{
+        //    Product? ProductObj = _unitOfWork.Products.Get(c => c.Id == Id);
+
+        //    if (ProductObj == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    _unitOfWork.Products.Remove(ProductObj);
+        //    _unitOfWork.Save();
+        //    TempData["success"] = "Product deleted successfully.";
+        //    return RedirectToAction("Index");
+        //}
+
+
+        #region API Calls
+
+        [HttpGet]
+        public IActionResult GetAll()
         {
-            if (Id == null || Id == 0)
-            {
-                return NotFound();
-            }
-
-            Product? ProductObj = _unitOfWork.Products.Get(c => c.Id == Id);
-
-            if (ProductObj == null)
-            {
-                return NotFound();
-            }
-
-            return View(ProductObj);
+            List<Product> ProductList = _unitOfWork.Products.GetAll(includeProperties: "Category").ToList();
+            return Json(new {  data = ProductList });
         }
 
-        [HttpPost, ActionName("Delete")]
-        public IActionResult DeletePost(int? Id)
+        [HttpDelete]
+        public IActionResult Delete(int? id)
         {
-            Product? ProductObj = _unitOfWork.Products.Get(c => c.Id == Id);
+            Product? ProductObj = _unitOfWork.Products.Get(c => c.Id == id);
 
             if (ProductObj == null)
             {
-                return NotFound();
+                return Json(new { success = false, message = "Error while deleting." }); 
             }
-           
+
             _unitOfWork.Products.Remove(ProductObj);
             _unitOfWork.Save();
-            TempData["success"] = "Product deleted successfully.";
-            return RedirectToAction("Index");
+            //TempData["success"] = "Product deleted successfully.";
+            return Json(new { success= true, message = "Product deleted successfully." });
         }
+
+        #endregion
     }
 }
