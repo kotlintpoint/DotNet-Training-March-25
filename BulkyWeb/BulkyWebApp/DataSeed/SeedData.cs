@@ -62,6 +62,38 @@ namespace Bulky.DataSeed
                         }
                     );
                 }
+
+                if (!context.Companies.Any()) {
+                    context.Companies.AddRange(
+                         new Company
+                         {                             
+                             Name = "TechNova Solutions",
+                             StreetAddress = "123 Innovation Drive",
+                             City = "Seattle",
+                             State = "WA",
+                             PostalCode = "98101",
+                             PhoneNumber = "206-555-0123"
+                         },
+                        new Company
+                        {                          
+                            Name = "GreenLeaf Industries",
+                            StreetAddress = "456 Eco Park Blvd",
+                            City = "Portland",
+                            State = "OR",
+                            PostalCode = "97205",
+                            PhoneNumber = "503-555-0198"
+                        },
+                        new Company
+                        {                         
+                            Name = "Skyline Logistics",
+                            StreetAddress = "789 Cargo Way",
+                            City = "Denver",
+                            State = "CO",
+                            PostalCode = "80202",
+                            PhoneNumber = "303-555-0175"
+                        }
+                    );
+                }
                 context.SaveChanges();
             }
         }
