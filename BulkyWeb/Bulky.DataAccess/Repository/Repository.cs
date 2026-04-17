@@ -22,11 +22,18 @@ namespace Bulky.DataAccess.Repository
             _dbSet.Add(entity);
         }
 
-        public T Get(Expression<Func<T, bool>> filter, string? includeProperties = null)
+        public T Get(Expression<Func<T, bool>> filter, string? includeProperties = null, bool tracking = false)
         {
             //var queryProduct = _db.Products.Include(u => u.Category).ToList();
             //var queryProductWithoutCategory = _db.Products.ToList();
-            IQueryable<T> query = _dbSet;
+            IQueryable<T> query;
+            if (tracking)
+            {
+                query = _dbSet;
+            }
+            else {
+                query = _dbSet.AsNoTracking();
+            }
             query = query.Where(filter);
             if (!string.IsNullOrEmpty(includeProperties))
             {
